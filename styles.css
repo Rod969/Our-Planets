@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.game-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.instructions {
+  margin-bottom: 20px;
+}
+
+.planet-order, .planets {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.planet-slot {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.draggable-planet {
+  width: 80px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #666;
+}

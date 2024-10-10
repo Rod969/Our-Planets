@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet Order Game - Star Wars Theme</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Help C-3PO Arrange the Planets!</h1>
+    <div class="instructions">
+      <p>Drag the planets into the correct order from closest to farthest from the Sun!</p>
+    </div>
+    <div class="planet-order">
+      <div class="planet-slot" id="sun-slot">Sun</div>
+      <div class="planet-slot" id="slot-1"></div>
+      <div class="planet-slot" id="slot-2"></div>
+      <div class="planet-slot" id="slot-3"></div>
+      <div class="planet-slot" id="slot-4"></div>
+      <div class="planet-slot" id="slot-5"></div>
+      <div class="planet-slot" id="slot-6"></div>
+      <div class="planet-slot" id="slot-7"></div>
+      <div class="planet-slot" id="slot-8"></div>
+    </div>
+    <div class="planets">
+      <img src="images/mercury.png" class="draggable-planet" id="mercury" draggable="true">
+      <img src="images/venus.png" class="draggable-planet" id="venus" draggable="true">
+      <img src="images/earth.png" class="draggable-planet" id="earth" draggable="true">
+      <img src="images/mars.png" class="draggable-planet" id="mars" draggable="true">
+      <img src="images/jupiter.png" class="draggable-planet" id="jupiter" draggable="true">
+      <img src="images/saturn.png" class="draggable-planet" id="saturn" draggable="true">
+      <img src="images/uranus.png" class="draggable-planet" id="uranus" draggable="true">
+      <img src="images/neptune.png" class="draggable-planet" id="neptune" draggable="true">
+    </div>
+    <button id="check-order">Check Order</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
