@@ -44,7 +44,7 @@ checkButton.addEventListener('click', () => {
 });
 
 function checkOrder() {
-  const correctOrder = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'];
+  const correctOrder = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
   if (JSON.stringify(currentOrder) === JSON.stringify(correctOrder)) {
     resultDiv.innerText = "Correct! You've arranged the planets!";
   } else {
